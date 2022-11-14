@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>
+            Sign up
+        </title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: blue;
+            }
+            .container{
+                padding: 7px;
+
+                background-color: white;
+            }
+            input[type-text],input[type-email],input[type-password]{
+                width: 50%;
+                height: 5px;
+                padding: 15px;
+                margin: 5px 0 17px 0;
+                display: inline-block;
+                border: none;
+                outline: none;
+                background: whitesmoke;
+
+            }
+            input[type-text]:focus[type-email]:focus,input[type-password]:focus{
+                background-color: white;
+                outline: none;
+            }
+            .registerbtn{
+                background-color: aqua;
+                color: black;
+                padding: 160px 20px;
+                margin: 8px;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+            }
+
+            .registerbtn:hover{
+                opacity: 1;
+            }
+            a{
+                color: blueviolet;
+            }
+            .login
+        {
+            background: whitesmoke;
+            text-align: center;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <form>
+            <h1>Sign up</h1>
+            <p>Please fill the form to create an account</p>
+            <hr>
+            <label>Name</label>
+            <input type="text" placeholder="your Name">
+            <br>
+            <label>EMAIL</label>
+            <input type="email" placeholder="email">
+            <br>
+            <label>password</label>
+            <input type="password" placeholder="password">
+            <br>
+            <label>Re-password</label>
+            <input type="re-password" placeholder="re-password">
+            <p>
+                By creating an account you agree toour<a href="a">Terms and privacy</a>
+            </p>
+            <button class="registerbtn"> signup</button>
+            </div>
+            <div class="login">
+        <p>Already have account?<a href="a">Login</a></p>
+        </form>
+    </div>
+
+
+        </form>
+        </div>
+    </body>
+</html>
